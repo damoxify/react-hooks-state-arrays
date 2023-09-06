@@ -5,6 +5,7 @@ const spicyFoods = [
 
 let nextId = 3;
 
+
 const newSpicyFoods = [
   { name: "Green Curry", cuisine: "Thai", heatLevel: 9 },
   { name: "Enchiladas", cuisine: "Mexican", heatLevel: 2 },
@@ -20,4 +21,4 @@ function getNewRandomSpicyFood() {
   return newSpicyFood;
 }
 
-export { spicyFoods, getNewRandomSpicyFood };
+export { spicyFoods, getNewRandomSpicyFood};
